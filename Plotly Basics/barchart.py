@@ -5,6 +5,7 @@ import pandas as pd
 df = pd.read_csv('../data/2018WinterOlympics.csv')
 print(df)
 
+
 trace1 = go.Bar(x=df['NOC'],
                 y=df['Gold'],
                 name='Gold',
